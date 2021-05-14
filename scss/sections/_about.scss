@@ -1,0 +1,55 @@
+.about {
+  padding: 12rem 0;
+  background: linear-gradient(to right, rgba(60, 97, 228, 0.03), rgba(233, 122, 60, 0.05));
+
+  &__description-wrapper {
+    max-width: 94rem;
+    width: 100%;
+    margin: 6rem auto;
+  }
+
+  &__unit-container {
+    display: flex;
+    margin-bottom: 2rem;
+  }
+
+  &__unit-description {
+    font-size: 2rem;
+    margin-left: 1rem;
+  }
+
+  &__technologies-list,
+  &__tools-list {
+    margin-left: 3.2rem;
+    margin-top: -1rem;
+  }
+
+  &__list-unit-container {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    & span {
+      margin-left: 1rem;
+    }
+  }
+
+  &__flex-section {
+    display: flex;
+  }
+
+  &__technologies-wrapper {
+    flex-basis: 50%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .about__flex-section {
+    flex-direction: column;
+  }
+
+  .about__technologies-wrapper {
+    margin-bottom: 2rem;
+  }
+}

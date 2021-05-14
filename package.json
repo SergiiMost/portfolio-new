@@ -1,0 +1,17 @@
+{
+  "name": "portfolio-new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass scss/style.scss ./style.css -w",
+    "compile:sass": "node-sass scss/style.scss ./style.comp.css",
+    "compress:css": "node-sass ./style.comp.css ./style.css --output-style compressed",
+    "build:css": "npm run compile:sass && npm run compress:css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.0"
+  }
+}

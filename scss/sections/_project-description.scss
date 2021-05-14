@@ -1,0 +1,78 @@
+.project-description {
+  &__heading {
+    margin: 6rem 0 3rem;
+  }
+
+  &__links-wrapper {
+    padding: 3rem 0 6rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    color: $blue;
+
+    &:hover {
+      opacity: 0.85;
+    }
+  }
+
+  &__heading--secondary {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+
+  &__image-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__image {
+    max-width: 60rem;
+    width: 100%;
+    padding: 2rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+  }
+
+  &__image-caption {
+    text-align: right;
+    padding-top: 1.5rem;
+    margin-right: 1rem;
+    opacity: 0.6;
+    font-weight: 500;
+  }
+
+  &__content-wrapper {
+    max-width: 97rem;
+    margin: 0 auto;
+    margin-top: 4rem;
+    font-size: 1.8rem;
+    line-height: 1.5;
+
+    & b {
+      font-weight: 500;
+    }
+  }
+
+  &__blockquote {
+    margin: 1rem 0 1rem 3rem;
+    opacity: 0.85;
+    border-left: 2px solid rgba(0, 0, 0, 0.2);
+
+    & > * {
+      margin-left: 2rem;
+    }
+
+    & ol {
+      margin-left: 5rem;
+    }
+
+    & > h4 {
+      font-weight: 500;
+    }
+  }
+}

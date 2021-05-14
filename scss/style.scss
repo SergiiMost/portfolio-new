@@ -1,0 +1,11 @@
+@import 'variables';
+@import 'base';
+@import 'utilities';
+
+@import './components/heading';
+
+@import './sections/header';
+@import './sections/about';
+@import './sections/projects';
+@import './sections/project-description';
+@import './sections/footer';

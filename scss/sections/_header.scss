@@ -1,0 +1,121 @@
+.icon-link {
+  vertical-align: bottom;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0;
+
+  &__icons-container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__link {
+    margin-left: 3rem;
+    &:hover {
+      opacity: 0.85;
+    }
+  }
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 12rem 0;
+  align-items: center;
+}
+
+.heading {
+  max-width: 52rem;
+
+  &--secondary {
+    font-weight: 500;
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+    color: #2e3436;
+  }
+
+  &--primary {
+    color: $orange;
+  }
+
+  &__span {
+    display: block;
+  }
+}
+
+.terminal {
+  height: 350px;
+  width: 450px;
+  font-family: 'Ubuntu Mono', monospace;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.25);
+  font-size: 1.8rem;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2e3436;
+    padding: 1.5rem 1rem;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+
+  &__body {
+    flex: 1;
+
+    background-color: rgb(48, 10, 36);
+    border-right: 4px solid $orange;
+    padding: 1rem;
+  }
+
+  &__header-owner {
+    color: $white-darker;
+    flex: 1;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  &__green {
+    color: #8ae234;
+    font-weight: 700;
+  }
+
+  &__white {
+    color: $white-darker;
+    font-weight: 700;
+  }
+
+  &__white--thin {
+    font-weight: 400;
+    color: $white-darker;
+  }
+
+  &__blue {
+    color: #729fcf;
+    font-weight: 700;
+  }
+
+  &__carret {
+    border-right: 0.5em solid rgba(255, 255, 255, 0.8);
+    animation: caret 1s steps(1) infinite;
+  }
+
+  @keyframes caret {
+    50% {
+      border-color: transparent;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .terminal {
+    display: none;
+    background-color: rebeccapurple;
+  }
+}

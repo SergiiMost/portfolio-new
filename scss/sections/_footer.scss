@@ -1,0 +1,11 @@
+.footer {
+  padding: 2rem 0;
+  background: linear-gradient(to right, rgba(60, 97, 228, 0.03), rgba(233, 122, 60, 0.05));
+  &__info-unit {
+    display: flex;
+    align-items: center;
+    & span {
+      margin-left: 5px;
+    }
+  }
+}
