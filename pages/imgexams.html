@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1" />
     <meta name="author" content="Sergii Mostovyi" />
-    <meta name="description" content="This page describes Shopify front-end internship challenge." />
+    <meta name="description" content="This page describes IMGexams project." />
     <link rel="stylesheet" href="../style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -13,7 +13,7 @@
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="icon" type="image/png" href="../images/favicon.png" />
-    <title>Sergii Mostovyi - Shopify's internship challenge</title>
+    <title>Sergii Mostovyi - IMGexams</title>
   </head>
   <body>
     <header>
@@ -93,70 +93,35 @@
       <div class="section-container">
         <div class="heading-wrapper">
           <h1 class="heading-gradient heading-padding project-description__heading">
-            <span> Shopify's internship challenge </span>
+            <span> IMGexams </span>
           </h1>
         </div>
         <div class="project-description__image-wrapper">
           <figure>
-            <img src="../images/shopify-lg.png" alt="Image of the project" class="project-description__image" />
+            <img src="../images/img-lg.png" alt="Image of the project" class="project-description__image" />
             <figcaption class="project-description__image-caption">Screenshot of the UI</figcaption>
           </figure>
         </div>
         <section class="project-description__content-wrapper">
           <h2 class="project-description__heading--secondary">Description</h2>
           <p class="u-mb-2">
-            I decided to start my 2021 by participating in Shopify's front-end internship challenge. Here is the
-            description of the challenge:
+            IMGexams is a web platform for international medical graduates who are preparing for exams in order to
+            qualify for medical residency matches in Canada and the USA. Currently, there is no centralized place where
+            medical graduates can discuss preparation for Canadian exams (MCCQE Part I, MCCQE Part II , NAC ) , share
+            useful tips, answer questions, etc. There is a lack of easily accessible information regarding exams
+            mentioned before,and IMGexams is being developed to solve this issue.
           </p>
-          <blockquote class="project-description__blockquote u-mb-2">
-            <h4 class="u-mb-05">The Shoppies: Movie awards for entrepreneurs</h4>
-            <p class="u-mb-1">
-              Shopify has branched out into movie award shows and we need your help. Please build us an app to help
-              manage our movie nominations for the upcoming Shoppies.
-            </p>
-            <h4 class="u-mb-05">The Challenge</h4>
-            <p class="u-mb-1">
-              We need a webpage that can search
-              <a href="http://www.omdbapi.com/" target="_blank" rel="noreferrer">OMDB</a> for movies, and allow the user
-              to save their favorite films they feel should be up for nomination. When they've selected 5 nominees they
-              should be notified they're finished.
-            </p>
-            <p class="u-mb-05">We'd like a simple to use interface that makes it easy to:</p>
-            <ol class="u-mb-1">
-              <li>Search OMDB and display the results (movies only).</li>
-              <li>Add a movie from the search results to our nomination list.</li>
-              <li>View the list of films already nominated.</li>
-              <li>Remove a nominee from the nomination list.</li>
-            </ol>
-            <h4 class="u-mb-05">Technical requirements</h4>
-            <ol>
-              <li>Search results should come from OMDB's API.</li>
-              <li>
-                Each search result should list at least its title, year of release and a button to nominate that film.
-              </li>
-              <li>Updates to the search terms should update the result list.</li>
-              <li>Movies in search results can be added and removed from the nomination list.</li>
-              <li>If a search result has already been nominated, disable its nominate button.</li>
-              <li>Display a banner when the user has 5 nominations.</li>
-            </ol>
-          </blockquote>
-          <p class="u-mt-2 u-mb-05">
-            In addition to the technical requirements, I decided to implement some additional features:
+
+          <p class="u-mt-2 u-mb-2">
+            At this point, it’s a minimum viable product (MVP), and it’s in a beta testing stage. It is in an active
+            development phase and may change significantly based on feedback. Some very useful features are going to be
+            implemented after the current testing iteration and adjustments ( according to the feedback ).
           </p>
-          <ol class="u-mb-2 u-ml-2">
-            <li>
-              In order to prevent unnecessary requests to
-              <a href="http://www.omdbapi.com/" target="_blank" rel="noreferrer">OMDB</a> API, I implemented
-              <b>debounce functionality</b> that sends a request to fetch data only after a user stops typing for 800ms.
-            </li>
-            <li>Used <b>localStorage</b> to save a nomination list if a user leaves the page.</li>
-            <li>Added some animations in order to improve UX.</li>
-          </ol>
           <h2 class="project-description__heading--secondary">Conclusion</h2>
           <p>
-            It was an interesting project to work on. I learned how to implement <b>debounce functionality</b> to
-            prevent unnecessary API requests. Also, I experimented with different layouts and improved my
-            <b>Figma</b> skills.
+            I've learned that a project implementation should not start before all aspects of it are clearly understood.
+            Also, it's very important to plan ahead how everything is structured in your application. Diagrams can be
+            very helpful in this case. Plan 7 times, code once!
           </p>
           <div class="project-description__links-wrapper">
             <a href="/#projects" class="project-description__link">
@@ -189,12 +154,7 @@
               </svg>
               <span class="u-ml-05">go back</span>
             </a>
-            <a
-              href="https://sergiimost.github.io/shoppies/"
-              target="_blank"
-              rel="noreferrer"
-              class="project-description__link"
-            >
+            <a href="https://imgexams.com/" target="_blank" rel="noreferrer" class="project-description__link">
               <svg
                 stroke="currentColor"
                 fill="currentColor"
