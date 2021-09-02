@@ -331,6 +331,13 @@ a {
 .footer {
   padding: 2rem 0;
   background: linear-gradient(to right, rgba(60, 97, 228, 0.03), rgba(233, 122, 60, 0.05)); }
+  .footer__info-wrapper {
+    display: flex;
+    justify-content: space-between; }
+  .footer__icon {
+    margin-left: 1.5rem; }
+    .footer__icon :hover {
+      opacity: 0.85; }
   .footer__info-unit {
     display: flex;
     align-items: center; }
